@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 60px;
+    background-color: #14161C;
+    
+}
+img{
+    width: 40px;
+    margin: 8px 100px;
+    
+}
+hr{
+    margin-bottom: 100px;
+}
+body{
+    background-color: #14161C;
+}
+#board,#board2,#board3,#board4,#board5,#board6{
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+.r1,.r2,.r3,.r4,.r5,.r6{
+    border: 2px solid #585858;
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+}
+.tr1,.tr2,.tr3{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+#teclado{
+    margin-top: 30px;
+}
+.btn{
+    font-size: 1.2em;
+    border: 1px solid #585858;
+    color: white;
+    background-color: #818384;
+    width: 30px;
+    height: 40px;
+    margin: 2px;
+}
+.btn#Enter {
+    width: 60px;
+  }
+  
